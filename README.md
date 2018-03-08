@@ -1,7 +1,8 @@
-## Smart Grid Hackathon 2017 at NSIT, by Tata Power
-## Prize for Innovation
-![Components of the system](./images/Combo-Saga.png)
+# Smart Grid Hackathon 2017 at NSIT, New Delhi, by Tata Power
+Prize for Innovation
+## Smart Autonomous Grid Analysis
 
+![Components of the system](./images/Combo-Saga.png)
 ### Goal:
 
 Industries can afford smart meters; hence for the revolution to be victorious, industries are adapted to novel Smart Grid Features.
@@ -12,10 +13,9 @@ Industry Electricity Consumption Analysis
 Using TOD to set Dynamic Pricing
 Using Greedy Algorithm to allocate Cheaper Time Slots  
 
-App Screen 1             |  App Screen 2              | App Screen 3
-:-------------------------:|:-------------------------:
-<img src="./images/app-screen-1.png" width="200">  |  <img src="./images/app-screen-2.png" width="200"> | <img style="float: left;" src="./images/smart-grid-screen.png" width="200" padding='20'>
-
+|<img src="./images/app-screen-1.png" width="200">  |  <img src="./images/app-screen-2.png" width="200"> | <img  src="./images/smart-grid-screen.png" width="200">
+|--------------||--------------|--------------|
+| <img src="./images/saga-suggest.png" width="200">  |  <img src="./images/anomaly-screens-1.png" width="200">| <img src="./images/anomaly-screens-2.png" width="200">|
 
 
 ### Greedy Algorithm for time allocation:
@@ -38,7 +38,6 @@ The user data is analyzed every 15 minutes. If there is a sudden spike in the ne
 
 This sudden Spike can be a electricity theft or a leak.
 
-
 ### Multivariate Classifier for Appliance Recognition (MCAR)
 
 1. During registration the user enters the type of appliances that are used by the household.
@@ -47,7 +46,7 @@ This sudden Spike can be a electricity theft or a leak.
 4. K is specified as the number of appliances used by the household
 5. The clusters are then passed to the decision tree to make them belong to a particular appliance class.
 
-## The Bill Prediction System based on simple linear regression model.
+### The Bill Prediction System based on simple linear regression model.
 
 It considers 49 features for a day.
 24 for the hourly temperature and 24 for the hourly flux and one Threshold feature.
