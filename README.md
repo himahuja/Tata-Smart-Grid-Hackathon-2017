@@ -45,9 +45,9 @@ This sudden Spike can be a electricity theft or a leak.
 5. The clusters are then passed to the decision tree to make them belong to a particular appliance class.
 
 ## The Bill Prediction System based on simple linear regression model.
+<img style="float: left;" src="./images/smart-grid-screen.png" width="200" padding='20'>
 It considers 49 features for a day.
 24 for the hourly temperature and 24 for the hourly flux and one Threshold feature.
 The daily consumption data of the user is recorded as the ‘Y – Matrix’. The weights are then trained using the Linear Regression (w/ Gradient Descent) ML model.
 
 <!-- ![alt text](./images/smart-grid-screen.png) -->
-<img src="./images/smart-grid-screen.png" width="200">
