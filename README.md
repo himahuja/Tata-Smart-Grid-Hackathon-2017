@@ -13,9 +13,9 @@ Industry Electricity Consumption Analysis
 Using TOD to set Dynamic Pricing
 Using Greedy Algorithm to allocate Cheaper Time Slots  
 
-|<img src="./images/app-screen-1.png" width="200">  |  <img src="./images/app-screen-2.png" width="200"> | <img  src="./images/smart-grid-screen.png" width="200">
-|--------------||--------------|--------------|
-| <img src="./images/saga-suggest.png" width="200">  |  <img src="./images/anomaly-screens-1.png" width="200">| <img src="./images/anomaly-screens-2.png" width="200">|
+| <img src="./images/app-screen-1.png" width="200"> | <img src="./images/app-screen-2.png" width="200"> | <img  src="./images/smart-grid-screen.png" width="200"> |
+| -------------- | -------------- | -------------- |
+| <img src="./images/saga-suggest.png" width="200"> | <img src="./images/anomaly-screens-1.png" width="200"> | <img src="./images/anomaly-screens-2.png" width="200"> |
 
 
 ### Greedy Algorithm for time allocation:
