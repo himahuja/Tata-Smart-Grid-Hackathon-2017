@@ -12,8 +12,11 @@ Industry Electricity Consumption Analysis
 Using TOD to set Dynamic Pricing
 Using Greedy Algorithm to allocate Cheaper Time Slots  
 
-<img src="./images/app-screen-1.png" width="200">
-<img src="./images/app-screen-2.png" width="200">
+App Screen 1             |  App Screen 2              | App Screen 3
+:-------------------------:|:-------------------------:
+<img src="./images/app-screen-1.png" width="200">  |  <img src="./images/app-screen-2.png" width="200"> | <img style="float: left;" src="./images/smart-grid-screen.png" width="200" padding='20'>
+
+
 
 ### Greedy Algorithm for time allocation:
 
@@ -45,7 +48,7 @@ This sudden Spike can be a electricity theft or a leak.
 5. The clusters are then passed to the decision tree to make them belong to a particular appliance class.
 
 ## The Bill Prediction System based on simple linear regression model.
-<img style="float: left;" src="./images/smart-grid-screen.png" width="200" padding='20'>
+
 It considers 49 features for a day.
 24 for the hourly temperature and 24 for the hourly flux and one Threshold feature.
 The daily consumption data of the user is recorded as the ‘Y – Matrix’. The weights are then trained using the Linear Regression (w/ Gradient Descent) ML model.
