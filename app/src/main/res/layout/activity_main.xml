@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mayanktripathi.smartgrid.MainActivity">
+
+
+    <Button
+        android:text="Button"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="Helvetica"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/energy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:text="Piechart"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="Helvetica"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/energy_pie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="90dp" />
+
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:id="@+id/graph"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="Energy Profile"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:fontFamily="Helvetica"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/graph"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>
