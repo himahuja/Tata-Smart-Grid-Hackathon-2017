@@ -1,6 +1,6 @@
 ## Smart Grid Hackathon 2017 at NSIT, by Tata Power
 ## Prize for Innovation
-![Components of the system](https://raw.githubusercontent.com/babahooja/Tata-Smart-Grid-Hackathon-2017/master/images/Combo-Saga.png)
+![Components of the system](./images/Combo-Saga.png)
 
 ### Goal:
 
@@ -11,6 +11,9 @@ Industries can afford smart meters; hence for the revolution to be victorious, i
 Industry Electricity Consumption Analysis
 Using TOD to set Dynamic Pricing
 Using Greedy Algorithm to allocate Cheaper Time Slots  
+
+<img src="./images/app-screen-1.png" width="200">
+<img src="./images/app-screen-2.png" width="200">
 
 ### Greedy Algorithm for time allocation:
 
@@ -46,4 +49,5 @@ It considers 49 features for a day.
 24 for the hourly temperature and 24 for the hourly flux and one Threshold feature.
 The daily consumption data of the user is recorded as the ‘Y – Matrix’. The weights are then trained using the Linear Regression (w/ Gradient Descent) ML model.
 
-![alt text](https://raw.githubusercontent.com/babahooja/Tata-Smart-Grid-Hackathon-2017/master/images/smart-grid-screen.png = 250x)
+<!-- ![alt text](./images/smart-grid-screen.png) -->
+<img src="./images/smart-grid-screen.png" width="200">
