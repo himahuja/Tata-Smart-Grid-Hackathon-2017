@@ -1,5 +1,7 @@
 # Smart Grid Hackathon 2017 at NSIT, New Delhi, by Tata Power
 Prize for Innovation
+
+Co-authors of the project: <a href="https://github.com/mayank408/">Mayank Tripathi</a>, <a href="https://github.com/ashu10832">Ashu Gupta</a>, <a href="https://github.com/shubhi-sareen"> Shubhi Sareen </a>
 ## Smart Autonomous Grid Analysis
 
 ![Components of the system](./images/Combo-Saga.png)
